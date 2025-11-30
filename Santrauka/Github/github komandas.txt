@@ -39,7 +39,7 @@ NORIT PAKEISTI URL
 git remote set-url origin URL
 
 'vartot0ojo inicializacija
-git config --global user.name "DariussCerniavskis"
+git config --global user.nt name "DariussCerniavskis"
 
 'Pašto iniicalkizacija
 git config --global user.email DariusCerniavskis@gmail.com

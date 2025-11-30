@@ -1,11 +1,13 @@
+body {
+  margin: 0;
+}
+
+
 @font-face {
   font-family: "BungeeSpice-Regular";
   src: url("./fonts/BungeeSpice-Regular.ttf");
 }
 
-body {
-  margin: 0;
-}
 
 header {
   height: 100px;

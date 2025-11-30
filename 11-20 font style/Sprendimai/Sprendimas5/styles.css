@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "BungeeSpice-Regular";
+    src: url("./fonts/BungeeSpice-Regular.ttf");
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +15,11 @@
 /* Reset all styles */
 h1 h2 h3 h4 {
     all: unset;
+
+
 }
+
+
 
 
 
@@ -18,11 +28,16 @@ h1 h2 h3 h4 {
 /* New sizes of fonts */
 h1 {
     font-size: 200px;
+    font-family: "BungeeSpice-Regular";
+    font-weight: 700;
+    font-style: normal;
 
 }
 
 h2 {
     font-size: 80px;
+
+
 
 }
 
@@ -36,6 +51,15 @@ h4 {
     font-size: 24px;
 
 }
+
+
+/* NEW FONT */
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 
 
 /* Background */
@@ -65,10 +89,7 @@ h4 {
 
     width: 100%;
 
-    /* height: 60px; */
 
-
-    background-color: rgb(20, 173, 89);
 
 }
 
@@ -85,6 +106,10 @@ h4 {
 
 }
 
+.red-block-in-line h4 {
+    text-align: center;
+}
+
 .in-line {
     display: inline-block;
 
@@ -96,7 +121,6 @@ h4 {
 .description {
     width: 100%;
 
-    background-color: aquamarine;
 }
 
 /* ---------------------------------------------------------------------------------- */
@@ -108,39 +132,50 @@ h4 {
 
 .nav-group {
 
-    width: 100%;
+    width: 500px;
 
     height: 50px;
 
 
-
-
-
-
-    background-color: rgb(207, 221, 214);
-
 }
+
+
+
+
 
 
 
 .nav-group button img {
     display: inline-block;
 
-    height: 100%;
+    height: 70%;
+
+    vertical-align: middle;
 
 
-    text-align: right;
-
-    display: none;
 }
 
 
-.nav-group button h3 {
+
+
+.play-text {
     display: inline-block;
-    height: 100%;
 
 
-    vertical-align: top;
+    text-align: center;
+
+    vertical-align: middle;
+
+}
+
+
+.more-info-text {
+    display: inline-block;
+
+
+    text-align: center;
+
+    vertical-align: middle;
 
 }
 
@@ -148,12 +183,27 @@ h4 {
 .button-play {
     background-color: white;
     color: black;
+
+    width: 200px;
     height: 100%;
+    display: inline-block;
+
+    border-radius: 5px;
+
+
+
 }
 
 .button-more-info {
     background-color: grey;
     color: white;
+
+    width: 200px;
     height: 100%;
+    display: inline-block;
+
+    border-radius: 5px;
+
+
 
 }
