@@ -1,0 +1,32 @@
+1. visit "fonts.google.com"
+
+2. Pasirinkti šrifto tipą
+
+3. 2X
+
+4. pasirinkti stilių
+
+5. Paspausti "Get font"
+
+	Norint pasirinkti link iš web
+
+	6. Paspausti "Get embed code"
+
+	7. Nukopijuoti HTML link
+
+
+norint atsiųsti į savio tinklalapį
+
+	5. "Download font"
+
+	6. išskleisti į atskirą katalogą"
+
+	7. Nurodyti link'ą iki srifto failo ttf
+   		<link href="kelias" rel="stylesheet">
+
+	8. Paspausti "Get embed code"
+
+
+
+9. Nukopijuoti stilių iš tinklalapio
+
