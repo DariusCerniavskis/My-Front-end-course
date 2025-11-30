@@ -6,7 +6,7 @@ git add
 git commit -m"Created new project"
 
 
-git remote add origin https://github.com/DariusCerniavskis/Projektas11-26.git
+git remote add origin https://github.com/DariusCerniavskisCodingAcademyFront-end.git
 
 git push --set-upstream origin master
 
