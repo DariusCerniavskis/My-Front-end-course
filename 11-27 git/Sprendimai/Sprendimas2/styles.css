@@ -1,0 +1,174 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+/* Header */
+
+.wallpaper{
+  
+    width:50% ; 
+  
+
+    margin: auto;
+    padding: 5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    gap: 1rem;
+
+    color: grey;
+
+    font-size: 1.5rem;
+
+   
+
+
+}
+
+/* Header picture */
+.wallpaper img{
+    width: 80px;
+
+    border-radius: 50%;
+}
+
+/* Evernote */
+.wallpaper h1{
+    font-size: 3rem;
+    color:black;
+ 
+}
+
+/* Remember... */
+.wallpaper h2{
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding-bottom: 2rem;
+
+    color:black;
+ 
+}
+
+/* All buttons */
+.main-button{
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    border: 3px solid grey;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+   padding: 1rem;    
+
+
+}
+
+.email-button{
+      width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    border: 3px solid grey;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem; 
+    font-size: 1.5rem;    
+}
+
+/* sign */
+.img-google{
+      scale: 0.8;
+}
+
+/* sign */
+.img-apple{
+     scale: 0.4;
+} 
+
+/* text next to sign */
+.main-button span{
+    font-size: 1.5rem;
+    color: grey;
+
+
+}
+
+
+
+.separator{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.separator hr{
+    width: 100%;
+
+  
+}
+
+.separator h4{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.continue-button-style{
+    /* main button style */
+   width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    border: 3px solid grey;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+
+    /* additiona style */
+    background-color: green;
+    color: white;
+
+    font-size: 1.5rem;
+ 
+
+}
+
+.check-line{
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+
+ 
+}
+
+/* space between check and text */
+.check-line input{
+    margin-right: 0.5rem;
+}
+
+.create-acount-style{
+    color: rgb(7, 37, 3);
+
+    padding: 1rem;
+}
+
+

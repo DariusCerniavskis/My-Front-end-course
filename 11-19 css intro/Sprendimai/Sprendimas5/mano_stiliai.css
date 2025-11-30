@@ -1,0 +1,52 @@
+
+
+
+.empty-box{
+    width: 300px;
+    height: 300px;
+
+    background-color: rgb(17, 142, 173);
+}
+
+
+
+
+.numbers{
+    width: 800px;
+
+    color: red;
+
+ }
+
+
+.number-with-border{
+  
+
+    background-color: rgb(52, 17, 177);
+
+    border: 5px dotted green;
+
+}
+
+
+.banner{
+   width: 800px;
+    height: 300px;
+
+    background-image: url(./pictures/background.jpg);
+
+    background-size: cover;
+
+    color: white;
+
+
+}
+
+.word-color{
+    color: blue;
+
+}
+
+.bottom-text{
+    color: red;    
+}

@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(193, 228, 228);
+}
+header {
+  height: 10rem;
+  background-color: rgb(193, 228, 228);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+header nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+header nav ul li a img {
+  width: 1rem;
+  height: 1rem;
+}
+
+/*  */
+
+.section-wrapper {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.images-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.images-row img {
+  flex: 1;
+  object-fit: cover;
+  min-width: 0;
+  height: 260px;
+}
+
+footer {
+  height: 10rem;
+  background-color: rgb(193, 228, 228);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  gap: 1rem;
+}
+footer nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+footer nav ul li a:hover {
+  text-decoration: underline;
+}
+
+footer nav ul li a img {
+  width: 1rem;
+  height: 1rem;
+}
+footer nav ul li a:hover {
+  text-decoration: underline;
+}
+.footer-link {
+  color: black;
+}

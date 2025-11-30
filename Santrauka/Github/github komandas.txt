@@ -1,0 +1,102 @@
+git init
+
+git add		
+
+
+git commit -m"Created new project"
+
+
+git remote add origin https://github.com/DariusCerniavskis/Projektas11-26.git
+
+git push --set-upstream origin master
+
+
+
+
+        UPDATING
+
+git add .
+
+git commit -m"komentaras"
+git push
+
+
+git remote -v	rodo visus URL
+
+git remote rename [old] [new]
+
+
+
+
+Other commands
+
+'vartot0ojo inicializacija
+git config --global user.name "DariussCerniavskis"
+
+'Pašto iniicalkizacija
+git config --global user.email DariusCerniavskis@gmail.com
+
+'nurodoma, kur bus depozitorija
+git config --global init.default branch main
+
+'Perėjimas į saugyklosa vietą
+cd d:a/jjjjjj....
+
+'Sukria repozitoriją su preieštai pasirinktiu adresu
+git init
+     Kompiuteryje prieš tai nurodytu adresu atsiranda katalogas"git"
+
+patikrint ar yra pakeitimų
+git status
+
+
+fAILO PRIDĖJIMAS
+git add vardas (. - visi)
+
+fail pašalinimas iš kandidatų
+git rm --cached vardas
+
+
+Norint padaryti failų sąrašą, kuriuos nekeltų į github, reikia
+1. kompo kataloge sukurti failą ".gitignore"
+2. Atidaryti tekstiniu redaktorium
+3. #Čia komnetaras, kad ignoruojam failus su plėtiniu txt
+   *.txt
+
+git commit -m"Komentaras į debesis"
+
+Noront palyginti failus atnaujinimo metu
+git dif
+
+
+perkelti į laikiną saugyklą
+git add pavadinimas
+išimti
+git restore --staged pavadinimas
+
+commit iš karto be laikino pridėjimo į saugyklą, norint atnaujinti
+git commit -a -m"atnaujinimas"
+
+Pavadinimo keitimas
+git mv "senas vardas" "Naujas vardas"
+
+Naujos šakos sukūrimas
+git branch Saka
+
+Šakų listas
+git branch
+
+perėjimas į nurodytą šaką
+git switch Saka
+
+
+
+
+
+
+
+
+
+
+
+

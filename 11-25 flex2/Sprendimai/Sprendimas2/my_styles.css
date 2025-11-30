@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body div.body-wallpaper{
+    background-color: rgb(195, 216, 216);
+    padding: 2rem;  
+}
+
+
+/* Header styles */
+/* -------------------------------------------------------------------------- */
+
+
+header{
+    background: greenyellow;
+    padding: 2rem;
+
+
+    display: flex;
+    justify-content: space-between; /* elements on left and right*/
+
+
+
+}
+
+/* Headers navigation links list */
+
+header nav ul{
+
+    display: flex;
+    gap: 1rem;
+}
+
+/* Headers navigation element */
+
+header nav ul li{
+    list-style: none; /* elements without dots*/
+  
+
+}
+
+/* Headers navigation link */
+
+header nav ul li a{
+    color: black;
+    text-decoration: none; /* Links black without underlining*/
+ 
+ 
+}
+
+
+/* Headers navigation link behavior when mouse pointer is on it */
+header nav ul li a:hover{
+    text-decoration: underline; 
+}
+
+
+/* Headers navigation link behavior when mouse pointer click on it */
+header nav ul li a:active{
+    zoom: 1.05;
+}
+
+/* Main  styles */
+/* ---------------------------------------------------------------------------------------- */
+
+main{
+    padding: 2rem;
+}
+
+
+/* Two pictures in row */
+.main-row{
+
+ 
+
+    display:flex;
+    justify-content: center;
+    text-align: center;
+ 
+    min-width: 0;   
+
+ 
+
+}
+
+
+/* mine picture style */
+main div img{
+    height: 400px;
+    padding: 1rem;
+
+    object-fit: cover;  /* Can change  height and width in different scaling */  
+
+    
+    flex:1;            /* The row of pictures fill all page */ 
+
+
+
+}
+
+
+
+/* Footer  styles */
+/* ---------------------------------------------------------------------------------------- */
+
+
+/* footer pictures group */
+footer nav  {
+    /* background-color: blueviolet; */
+ 
+    margin-top: 100px;
+    padding: 1rem;
+  
+
+    display: flex;              
+    justify-content: center;    /* pictures on center with gaps 32 px */
+    gap: 2rem;
+ 
+}
+
+
+/* footer pictures size */
+
+footer nav button img{
+ 
+    width: 3rem;
+ 
+}
+
+ 
+
+/* The last but not least */
+
+.more-info{
+    /* background-color: red; */
+
+    padding: 2rem;
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page-wrapper {
+  background-color: bisque;
+  height: 80vh;
+
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* justify-content: space-between; */
+  /* justify-content: space-evenly; */
+
+  /* gap: 2rem; */
+}
+
+.child {
+  width: 120px;
+  height: 120px;
+  background-color: brown;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}

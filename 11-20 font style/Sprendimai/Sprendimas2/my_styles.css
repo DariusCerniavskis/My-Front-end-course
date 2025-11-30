@@ -1,0 +1,40 @@
+.background-wraper{
+    background-color: blanchedalmond;
+    height: 700px;
+}
+
+.my-content-wraper{
+    background-color: green;
+    height: 600px;
+    width: 80%;
+    margin: auto;
+    
+    text-align: center;
+
+}
+
+/* Head picture's hedgehog stile */
+.hedgehog {
+    height: 100px;
+ 
+}
+
+
+.text{
+    text-align: left;
+    width: 95%;
+    margin: auto;
+    text-align: justify;
+
+}
+
+.main-header{
+    font-size: 40px;
+}
+
+.mini-head{
+    color: red;
+    
+
+}
+

@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.body-wallpaper{
+    background-color: rgb(46, 83, 83);
+    color: white;
+
+    width: 500px;
+    height: 750px;
+    margin: 3rem;
+    padding: 1rem;
+
+    text-align: center;
+}
+
+
+/* Header styles */
+/* -------------------------------------------------------------------------- */
+
+header h1{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    
+}
+
+
+
+
+
+
+/* Main  styles */
+/* ---------------------------------------------------------------------------------------- */
+
+.gaps-wallpaper{
+    margin-top: 1rem;
+
+    display: flex;
+    
+    flex-direction: column;
+
+    justify-content: center;
+
+ 
+}
+
+
+.gap-name-and-fill{
+
+    display: flex;
+    flex-direction:column;
+
+    justify-content: space-between;
+
+ 
+ 
+}
+
+.instruction{
+    padding: 1rem;
+
+}
+
+/* important word */
+.important{
+    background-color: darkorchid;
+}
+
+
+/* Al gaps you shud fill */
+figure{
+    height: 2rem;
+    width: 15rem;
+    font-size: 1.3rem;
+    
+    /* no effect */
+    /* margin-top: 0.8rem; */
+
+  
+
+    border: 4px solid darkorchid ;
+    background-color: white;
+    color: black;
+
+  
+
+    margin: auto;
+  
+ 
+    text-align: start;
+    
+    /* margin-top we  need use after margin: auto because inheritant */
+    margin-top: 0.3rem;
+
+    margin-bottom: 1.5rem;
+ 
+    
+    padding-left: 0.5rem;
+ 
+    /* text center verticaly */
+    display: flex;
+    align-items: center;
+
+ 
+ 
+
+   
+
+}
+
+.id-box{
+    margin-top: 2rem;
+}
+
+
+/* gap unique ID can't be changed */
+.unique-id{
+    background-color: grey;
+    border: none;
+
+
+
+}
+
+
+/* age is 3 char (max) */
+.gap-age{
+    width: 3rem;
+
+}
+
+
+/* optional is smaller */
+.optional-font-size{
+    font-size: 0.8rem;
+
+}
+
+/* textbox 20 X 2 */
+.gap-introduction{
+    width: 20rem;
+    height: 3.5rem;
+
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+/* Footer  styles */
+/* ---------------------------------------------------------------------------------------- */
+
+
+/* Agreement line */
+
+footer div{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+footer div button{
+ 
+    height: 1.5rem;
+    width: 1.5rem;
+    border: 4px solid black;
+    border-radius: 4px;
+
+
+    margin-right: 0.2rem;
+
+
+
+
+}
+
+
+.registration-button{
+    width: 8rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+
+    background-color: rgb(15, 172, 68);
+    border: 5 solid rgb(168, 143, 209);
+
+}
+
+.registration-button:hover{
+       background-color: rgb(105, 233, 54); 
+       transition: 0.3s;   
+}
+
+.registration-button:active{
+       background-color: rgb(105, 233, 54); 
+       color: white;
+       transition: 0.3s;   
+}

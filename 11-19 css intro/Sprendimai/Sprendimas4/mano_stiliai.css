@@ -1,0 +1,42 @@
+
+
+
+.top-box{
+    width: 400px;
+    height: 200px;
+
+    background-color: green;
+}
+
+.top-box h4{
+    color: white;
+}
+
+
+.main-text{
+    border: 2px solid green;
+
+    width: 600px;
+
+    color: rgb(180, 31, 31);
+
+    font-weight: 900;
+
+    font-size: 3rem;
+
+}
+
+
+
+.blue-box{
+    width: 600px;
+    height: 200px;
+
+    background-color: rgb(60, 135, 204);
+
+    border-radius: 20px;
+}
+
+.title{
+    text-align: center;
+}

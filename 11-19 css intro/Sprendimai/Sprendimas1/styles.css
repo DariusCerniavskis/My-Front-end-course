@@ -1,0 +1,19 @@
+.square{
+    border: 2px solid grey;
+}
+
+.color1{
+    border: 2px solid grey;
+    background-color: red;
+}
+    
+.border2{
+    background-color: yellow;
+
+
+}
+
+.border3{
+    border: 2 solid grey;
+    background-color: green;
+}

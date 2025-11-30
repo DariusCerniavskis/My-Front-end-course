@@ -1,0 +1,27 @@
+.section {
+  display: grid;
+  grid-template-columns: 1fr;
+
+  grid-template-rows: 100px 500px 100px;
+  gap: 1rem;
+}
+
+header {
+  background-color: gold;
+}
+
+main {
+  background-color: brown;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+footer {
+  background-color: green;
+}
+
+.inner-section {
+  background-color: rgb(185, 185, 185);
+  padding: 2rem;
+}

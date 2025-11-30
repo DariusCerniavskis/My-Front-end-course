@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.body-wallpaper{
+    border: 1 solid black;
+    background-color: darkgreen;
+    padding: 1rem;
+}
+
+
+header{
+ 
+
+    background-color: aqua;
+}
+
+
+
+header nav{
+    padding: 0.5rem;
+
+    display: flex;
+    background-color: brown;
+    justify-content: space-around;
+
+}
+
+header h1.my-header{
+    text-align: center;
+    padding: 1rem;
+}
+
+main{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+    
+main p{
+    text-align: justify;
+    padding: 1rem;
+    border: 2px dashed blue;
+}
+
+footer{
+    margin-top: 2rem;
+ 
+
+}
+
+
+
+footer p{
+    text-align: left;
+    padding: 0.5rem;
+    border: 3px dotted red;
+}

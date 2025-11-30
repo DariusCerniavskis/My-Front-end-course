@@ -1,0 +1,48 @@
+
+.ground{
+    width: 1200px;
+    background-color: aquamarine;
+
+}
+
+
+
+.wallpaper{
+    width: 300px;
+    height: 500px;
+    background-color: brown;
+    border: 3 solid black;
+    border-radius: 10px;
+    display: inline-block;
+
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+
+    margin-bottom: 100px;
+
+}
+
+
+
+.picture-style{
+    margin: 20px;
+    background-color: blue;
+
+    width: 80%;
+    text-align: justify;
+
+
+
+}
+
+.tekstas{
+    font-size: 14px;
+    color: green;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.enter{
+    display: block;
+}
