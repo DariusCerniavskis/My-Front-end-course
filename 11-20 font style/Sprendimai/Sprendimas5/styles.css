@@ -1,8 +1,3 @@
-@font-face {
-    font-family: "BungeeSpice-Regular";
-    src: url("./fonts/BungeeSpice-Regular.ttf");
-}
-
 
 * {
     margin: 0;
@@ -28,10 +23,7 @@ h1 h2 h3 h4 {
 /* New sizes of fonts */
 h1 {
     font-size: 200px;
-    font-family: "BungeeSpice-Regular";
-    font-weight: 700;
-    font-style: normal;
-
+ 
 }
 
 h2 {
@@ -53,12 +45,7 @@ h4 {
 }
 
 
-/* NEW FONT */
-.bebas-neue-regular {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
+
 
 
 
@@ -75,6 +62,11 @@ h4 {
 
     color: white;
 
+
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+
 }
 
 /* ---------------------------------------------------------------------------------- */
@@ -85,13 +77,6 @@ h4 {
 
 /* manin topic */
 
-.advertisment-name {
-
-    width: 100%;
-
-
-
-}
 
 
 
@@ -127,29 +112,18 @@ h4 {
 
 
 
-/* Navigation */
+/* Footer navigation */
 
 
-.nav-group {
 
-    width: 500px;
+
+
+
+footer nav button img {
+    display: inline-block;
 
     height: 50px;
 
-
-}
-
-
-
-
-
-
-
-.nav-group button img {
-    display: inline-block;
-
-    height: 70%;
-
     vertical-align: middle;
 
 
@@ -158,26 +132,15 @@ h4 {
 
 
 
-.play-text {
+.button-name {
     display: inline-block;
 
-
-    text-align: center;
 
     vertical-align: middle;
 
 }
 
 
-.more-info-text {
-    display: inline-block;
-
-
-    text-align: center;
-
-    vertical-align: middle;
-
-}
 
 
 .button-play {
@@ -186,7 +149,7 @@ h4 {
 
     width: 200px;
     height: 100%;
-    display: inline-block;
+ 
 
     border-radius: 5px;
 
@@ -199,11 +162,16 @@ h4 {
     color: white;
 
     width: 200px;
-    height: 100%;
-    display: inline-block;
+    height: 90%;
+ 
 
     border-radius: 5px;
 
 
+
+}
+
+.button-more-info img{
+    border-radius: 45%;
 
 }

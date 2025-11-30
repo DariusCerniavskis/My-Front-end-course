@@ -30,3 +30,6 @@ norint atsiųsti į savio tinklalapį
 
 9. Nukopijuoti stilių iš tinklalapio
 
+
+Pastaba: STILIUS NURODOMAS IŠORINIAME DIV
+
