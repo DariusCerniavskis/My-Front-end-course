@@ -1,0 +1,73 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.walpaper{
+    width: 1500px;
+    
+
+    padding: 2rem;
+
+
+    background-color: rgb(173, 162, 162)
+}
+
+
+article{
+    width: 20%;
+    height: 500px;
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 2rem;
+
+    display:inline-block;
+
+    vertical-align: top;
+
+  
+    background-color: white;
+
+
+ 
+}
+
+.main-topic{
+    height: 75%;
+}
+
+
+article img {
+    width: 100%;
+    height: 150px;
+
+
+}
+
+article h2{
+    color: red;
+    text-align: center;
+
+    padding-bottom: 2rem;
+}
+
+article h5{
+    text-align: justify;
+}
+
+article h4{
+    color: blue;
+
+    font-weight: 800;
+
+    text-align: justify;
+
+    padding-top: 3rem;
+
+
+}
