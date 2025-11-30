@@ -1,0 +1,16 @@
+1. uzeiti į   https://fonts.google.com/
+
+2. Download and extract
+
+3. Copy HTML and CSS code
+
+<link href="KELIAS" rel="stylesheet">
+
+4. Copy CSS į pačią pradžią
+
+@font-face {
+  font-family: "Pavadinimas";
+  src: url("./fonts/Pavadinimas.ttf");
+}
+
+
