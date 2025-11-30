@@ -1,13 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 
     /* all: unset; */
 }
 
 /* Reset all styles */
-h1 h2 h3 h4{
+h1 h2 h3 h4 {
     all: unset;
 }
 
@@ -16,42 +16,44 @@ h1 h2 h3 h4{
 
 
 /* New sizes of fonts */
-h1{
+h1 {
     font-size: 200px;
-    
+
 }
 
-h2{
+h2 {
     font-size: 80px;
-    
+
 }
 
-h3{
+h3 {
     font-size: 36px;
     margin: 0;
-    
+
 }
 
-h4{
+h4 {
     font-size: 24px;
-    
+
 }
 
 
 /* Background */
 /* ---------------------------------------------------------------------------------- */
-.background-paper{
+.background-paper {
     width: 1000px;
     height: 700px;
-    
-    
-    
+
+
+
     background-image: url(./images/background.jpg);
     background-size: cover;
 
     color: white;
 
-}/* ---------------------------------------------------------------------------------- */
+}
+
+/* ---------------------------------------------------------------------------------- */
 
 
 
@@ -59,39 +61,39 @@ h4{
 
 /* manin topic */
 
-.advertisment-name{
+.advertisment-name {
 
     width: 100%;
 
     /* height: 60px; */
 
- 
+
     background-color: rgb(20, 173, 89);
 
 }
 
 
 
-.red-block-in-line{
- 
-    background-color:red;
+.red-block-in-line {
+
+    background-color: red;
 
     display: inline-block;
 
-    
 
 
-}
-
-.in-line{
-   display: inline-block;
-
-   vertical-align: top;
 
 }
 
+.in-line {
+    display: inline-block;
 
-.description{
+    vertical-align: top;
+
+}
+
+
+.description {
     width: 100%;
 
     background-color: aquamarine;
@@ -104,13 +106,13 @@ h4{
 /* Navigation */
 
 
-.nav-group{
+.nav-group {
 
     width: 100%;
 
     height: 50px;
 
-  
+
 
 
 
@@ -121,41 +123,37 @@ h4{
 
 
 
-.nav-group button img{
+.nav-group button img {
     display: inline-block;
 
     height: 100%;
-    
-        
-    background: none;
+
+
+    text-align: right;
+
+    display: none;
 }
 
 
-.nav-group button h3{
-    display: inline-block; 
+.nav-group button h3 {
+    display: inline-block;
     height: 100%;
-    
+
 
     vertical-align: top;
-    
+
 }
 
 
-.button-play{
+.button-play {
     background-color: white;
     color: black;
     height: 100%;
 }
 
-.button-more-info{
+.button-more-info {
     background-color: grey;
     color: white;
     height: 100%;
-   
+
 }
-
-
-
-
-
-
