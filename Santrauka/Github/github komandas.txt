@@ -8,6 +8,8 @@ git commit -m"Created new project"
 
 git remote add origin https://github.com/DariusCerniavskisCodingAcademyFront-end.git
 
+
+
 git push --set-upstream origin master
 
 
@@ -29,6 +31,12 @@ git remote rename [old] [new]
 
 
 Other commands
+
+NORINT PAŠALINTI REMOTE
+git remote rm origin URL
+
+NORIT PAKEISTI URL
+git remote set-url origin URL
 
 'vartot0ojo inicializacija
 git config --global user.name "DariussCerniavskis"
