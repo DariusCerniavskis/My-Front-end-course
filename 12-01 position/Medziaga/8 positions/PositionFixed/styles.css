@@ -1,0 +1,18 @@
+body {
+  margin: 0px;
+}
+
+.element1 {
+  background-color: blue;
+  height: 120vh;
+}
+
+.element2 {
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  top: 50%;
+  right: 1rem;
+  /* transform: translate(-50%, -50%); */
+  background-color: red;
+}

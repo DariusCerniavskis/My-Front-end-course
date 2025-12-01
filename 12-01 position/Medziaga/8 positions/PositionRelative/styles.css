@@ -1,0 +1,29 @@
+body {
+  margin: 10px;
+}
+
+.parent {
+  height: 1600px;
+  background-color: green;
+}
+
+.child {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  display: inline-block;
+  margin: 20px;
+}
+
+.relative {
+  position: relative;
+  background-color: blue;
+  left: 100px;
+  top: 100px;
+  z-index: 2;
+}
+
+.relative2 {
+  position: relative;
+  z-index: 3;
+}

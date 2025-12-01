@@ -1,0 +1,23 @@
+body {
+  margin: 0px;
+}
+
+.parent {
+  height: 800px;
+  background-color: green;
+  margin: 100px;
+  padding: 100px;
+  position: relative;
+}
+
+.absolute {
+  background-color: blue;
+  position: absolute;
+  width: 400px;
+  height: 100px;
+  top: 20px;
+  right: 0px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
