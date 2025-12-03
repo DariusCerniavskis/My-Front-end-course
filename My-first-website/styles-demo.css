@@ -1,0 +1,329 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+/* layer 1 */
+.main-wrapper{
+    width: 900px;
+    height: 130vh;
+
+    padding: 1rem;
+
+    color: white;
+    
+  
+    background-color: gray
+}
+
+
+/* ------------------------------------------------------------------------------------------- */
+
+
+/* layer2 */
+header{
+    width: 100%;
+    height: 35%;
+
+
+ 
+
+ 
+/* 
+   background-color:white; */
+}
+ 
+
+/* layer3 */
+.nav-wrapper{
+    height: 12%;
+
+    margin-bottom: 0.5rem;
+
+    padding: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* background-color:rgb(168, 235, 124); */
+}
+
+.nav-wrapper nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+
+    list-style-type: none; 
+
+
+}
+
+.nav-wrapper nav ul li a{
+    text-decoration: none;
+    color: white;
+
+    
+}
+
+
+
+
+/* layer3 */
+.articles-wrapper{
+    width: 100%;
+    height: 85%;
+
+    position: relative;
+
+
+    /* background-color:rgb(168, 235, 124); */
+}
+
+
+
+/* layer 4.0 */
+.small-article-wrapper{
+    width: 150px;
+    
+    margin: 0.5rem;
+    padding: 0.5rem;
+ 
+/* 
+    display: inline-block; */
+
+    position: absolute;
+    left: 30px;
+    top: 20px;
+
+
+    /* background-color:rgb(53, 192, 197); */
+
+}
+
+
+
+.small-article-wrapper h3{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+
+.underline-in-small{
+
+    display: flex;
+    justify-content: left;
+}
+
+.underline-in-small hr{
+    width: 2rem;   
+}
+
+
+/* layer 4.1 */
+.big-article-wrapper{
+    width: 300px;
+
+    margin: 0.5rem;
+    padding: 0.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    right: 50px;
+    bottom: 10px;
+
+
+    /* background-color:rgb(53, 192, 197); */
+}
+
+.big-article-wrapper h4{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.underline-in-big{
+
+    display: flex;
+    justify-content: center;
+}
+
+.underline-in-big hr{
+    width: 2rem;   
+
+    margin: 0.5rem;
+}
+
+.big-article-wrapper p{
+    text-align: justify;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------------------ */
+
+/* layer2 */
+main{
+    width: 100%;
+    height: 60%;
+
+    /* background-color:white; */
+}
+
+/* layer3 */
+.main-box-wrapper{
+    width: 100%;
+    /* height: 60%; */
+
+    /* background-color:rgb(168, 235, 124); */
+} 
+
+/* layer 4 */
+.main-name-wrapper{
+     height: 25%;
+
+     padding: 0.5rem;
+
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 0.5rem;
+ 
+
+
+    /* background-color:rgb(53, 192, 197); */
+}
+
+
+/* layer 4 */
+.beautifull-places{
+    width: 100%;
+    height: 200px;
+
+    display: grid;
+ 
+    grid-template-columns: 1fr 1fr 1fr;
+
+    gap:1rem;
+
+
+
+    /* background-color:rgb(53, 192, 197); */
+
+    /* background-color: red; */
+}
+
+
+/* layer5 */
+
+.beautifull-places section{
+    /* width: 80%; */
+
+    
+    object-fit: cover;
+
+}
+
+/* layer5 */
+
+.beautifull-places section{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+    object-fit: fill;
+
+
+    
+ 
+}
+
+.beautifull-places section div{
+    padding-bottom: 0.5rem;
+
+    color:greenyellow;
+
+    text-align: center;
+
+
+}
+
+
+
+.image1{
+    background-image: url(./images/paluse.jpg)
+}
+
+.image2{
+    background-image: url(./images/ginuciai.jpg)
+}
+
+.image3{
+    background-image: url(./images/vaisniunai.jpg)
+}
+
+
+
+/* layer4 */
+.subscription-wrapper{
+    /* width: 40%; */
+    /* height: 30%; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap:0.2rem;
+
+
+    /* background-color:rgb(53, 192, 197); */
+}
+
+.subscription-wrapper h2{
+
+    font-size: 2rem;
+}
+
+.subscription-wrapper input{
+    width: 60%;
+    
+    margin: 0.5rem;
+    padding: 0.2rem;
+
+    font-size: 1.3rem;
+    font-weight: 600;
+
+
+    border: 2 solid orangered;
+
+}
+
+.subscription-wrapper button{
+    height: 2.5rem;
+    
+
+    margin:0.5rem;
+    padding: 0.2rem;
+
+    font-size: 1.5rem;
+
+    border-radius: 5px;
+    background-color: green;
+
+    border: 3px solid white;
+}
+
+/* -------------------------------------------------------------------------------------- */
+/* footer like top line */
