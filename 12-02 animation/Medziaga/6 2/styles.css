@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100px;
+  background-color: azure;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+header nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+header nav ul li a img {
+  width: 1rem;
+  height: 1rem;
+}
+
+.img-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+.img-wrapper img {
+  flex: 1;
+  min-width: 0;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.title {
+  text-align: center;
+}
+
+.description {
+  text-align: center;
+}
+
+.img-wrapper {
+  display: flex;
+  gap: 1rem;
+}
+
+button {
+  background-color: white;
+  padding: 0.5rem 1rem;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 2rem;
+  scale: 1.1;
+}
+
+button:hover {
+  background-color: rgb(162, 162, 162);
+  scale: 1.06;
+}
+
+button:active {
+  background-color: rgb(113, 113, 113);
+  scale: 1;
+}
+
+.boxes-wrapper {
+  display: flex;
+  gap: 2rem;
+}
+
+.box {
+  flex: 1;
+  background-color: blanchedalmond;
+  height: 100px;
+}
+
+.large {
+  flex-grow: 2;
+}
+
+.logo {
+  position: relative;
+  animation-name: slide-right;
+  animation-duration: 2s;
+
+  animation-fill-mode: forwards;
+}
+
+nav {
+  position: relative;
+  animation-name: slide-left;
+  animation-duration: 2s;
+
+  animation-fill-mode: forwards;
+}
+
+.img-wrapper {
+  position: relative;
+  animation-name: slide-right;
+  animation-duration: 2s;
+
+  animation-fill-mode: forwards;
+}
+
+.text-wrapper {
+  position: relative;
+  animation-name: slide-left;
+  animation-duration: 2s;
+
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-right {
+  0% {
+    right: 100px;
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 0;
+  }
+
+  100% {
+    right: 0px;
+    opacity: 1;
+  }
+}
+
+@keyframes slide-left {
+  0% {
+    left: 100px;
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 0;
+  }
+
+  100% {
+    left: 0px;
+    opacity: 1;
+  }
+}
