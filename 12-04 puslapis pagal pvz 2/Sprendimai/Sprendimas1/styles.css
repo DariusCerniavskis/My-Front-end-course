@@ -1,0 +1,52 @@
+:root {
+    --main-bgr-color: rgb(43, 43, 43);
+    --main-color: white;
+    --main-spacing: 2rem;
+ 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+
+/* bacgrounds styles */
+
+.bgr-styles{
+
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+     url("./assests/main-bgr.jpg") center/cover no-repeat;
+
+ 
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+
+
+}
+
+
+.main-wrapper{
+    min-width: 350px;
+    max-width: 1200px;
+
+    color: var(--main-color);
+
+    border-radius: 10px;
+}
+
+.section-wrapper{
+    height: 60vh;
+
+
+    background-image: url(./assests/main-bgr.jpg);
+
+    padding:var(--main-spacing);
+
+
+}
+
+

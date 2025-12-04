@@ -2,6 +2,8 @@
     --main-bgr-color: rgb(43, 43, 43);
     --main-color: white;
     --main-spacing: 1.2rem;
+    --img-height: 300px;
+    --main-height:120vh;
 }
 
 
@@ -19,9 +21,12 @@
 /* layer 1 */
 .main-wrapper {
 
-    height: 130vh;
+    height: var(--main-height);
 
     padding: 1rem;
+
+  
+   
 
     color: var(--main-color);
 
@@ -49,20 +54,36 @@ header {
     background-color: white;
 }
 
-/* layer3 */
 .nav-wrapper {
-    height: 12%;
+    height: 60px;
+    width: 100%;
 
     margin-bottom: 0.5rem;
 
     padding: 1rem;
 
+
+
+
     display: flex;
     justify-content: space-between;
     align-items: center;
 
+    position: relative;
+
+
+/*  ??????????????????? */
+
+    /* position: fixed;
+    top: 0; */
+
+
+ 
+  
+
     background-color: rgb(168, 235, 124);
 }
+
 
 .nav-wrapper nav {
     display: flex;
@@ -71,7 +92,11 @@ header {
     /* gap: 2rem; */
 
 
+
 }
+
+
+
 
 
 .nav-wrapper nav ul {
@@ -95,7 +120,10 @@ header {
 
 }
 
-.nav-wrapper nav ul li button {
+
+
+
+.nav-wrapper nav ul li button a {
     text-decoration: none;
 
     background-color: var(--main-bgr-color);
@@ -103,6 +131,10 @@ header {
 
 
 }
+
+
+
+
 
 .burger-btn {
     all: unset;
@@ -113,7 +145,7 @@ header {
     align-items: center;
 
     display: none;
-
+ 
 }
 
 .burger-btn img {
@@ -121,13 +153,59 @@ header {
     width: 1rem;
     height: 1rem;
 
-
-
-
-
 }
 
 
+/* **************************************** */
+/* hidden styles  */
+/* show on burger button click */
+.burger-btn img:hover + .hidden-nav-wrapper{
+   width: 100px;
+
+    padding: 5px;
+
+ 
+    position: absolute;
+     top: 70px;
+    right: 20px;
+    z-index: 1;
+
+  
+    border: 2px dotted blue;
+
+
+       display:block;
+}
+
+
+
+
+.hidden-nav-wrapper{
+ 
+    display:none;
+
+ }
+
+.hidden-nav-wrapper ul{
+   list-style-type: none;    
+}
+
+.hidden-nav-wrapper ul li a {
+    text-decoration: none;
+
+    color: var(--main-color);
+
+}
+
+.hidden-nav-wrapper ul li button a {
+    text-decoration: none;
+
+    background-color: var(--main-bgr-color);
+    color: var(--main-color);
+
+
+}
+/* ******************************************************************* */
 
 
 /* layer3 */
@@ -229,7 +307,7 @@ header {
 /* layer2 */
 main {
     width: 100%;
-    height: 60%;
+    /* height: 75%; */
 
     background-color: white;
 }
@@ -239,12 +317,14 @@ main {
     width: 100%;
     /* height: 60%; */
 
+    padding-top: 2rem;
+
     background-color: rgb(168, 235, 124);
 }
 
 /* layer 4 */
 .main-name-wrapper {
-    height: 25%;
+ 
 
     padding: 0.5rem;
 
@@ -263,20 +343,14 @@ main {
 /* layer 4 */
 .beautifull-places {
     width: 100%;
+ 
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 
     gap: 1rem;
 
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    flex-wrap: wrap; */
-
-
-
+ 
     background-color: rgb(53, 192, 197);
 
     background-color: red;
@@ -288,13 +362,20 @@ main {
 /* layer5 */
 
 .beautifull-places section {
-    min-width: 284px;
+   min-width: 284px;
+ 
 
-    height: 300px;
 
-    /* max-width: 400px; */
-    /* height: 150px; */
+}
 
+
+
+.beautifull-intro{
+    width: 100%;
+    height: var(--img-height);
+  
+
+ 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -306,10 +387,6 @@ main {
     justify-content: end;
     align-items: center;
 
-
-}
-
-.beautifull-places section div {
     padding-bottom: 0.5rem;
 
     color: var(--main-color);
@@ -318,6 +395,47 @@ main {
 
 
 }
+
+/* picture undeline */
+.section-underline{
+    /* width: 100%; */
+    padding-bottom: 0.5rem;
+    color: var(--main-color);
+    text-align: center;
+}
+
+
+
+
+/* show when hover on picture name */
+.more-detail{
+    display: none;
+}
+
+
+.beautifull-intro div:hover + .more-detail{
+   width: 100%;
+
+    color: var(--main-color);
+    border-radius: 10px;
+
+    position: absolute;
+    top:var(--img-height);
+    z-index: 1;
+
+
+    background-color: grey;
+    /* border: 4 dashed red; */
+
+
+    display: block;
+
+
+
+
+}
+
+
 
 
 
@@ -333,18 +451,35 @@ main {
     background-image: url(./images/vaisniunai.jpg)
 }
 
+.image4 {
+    background-image: url(./images/ladakalnis.jpg)
+}
+
+
+
 
 
 /* layer4 */
 .subscription-wrapper {
-    /* width: 40%; */
-    /* height: 30%; */
+    width: 100%;
+    height: 30%;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
 
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
     gap: 0.2rem;
+
+  
+
+    position: fixed; 
+    z-index: 2;
+ 
+
+  
 
 
     background-color: rgb(53, 192, 197);
@@ -394,14 +529,25 @@ main {
 
 
 
-
 /* screen spacing */
 
 
 @media (max-width: 1200px) {
+    
+    .main-wrapper {
+
+    height: var(--main-height + --img-height);
+
+    }
+
+    
+    
+    
     .beautifull-places {
         grid-template-columns: 1fr 1fr;
     }
+
+
 }
 
 
@@ -415,9 +561,9 @@ main {
 
 
     .burger-btn {
-        display: inline
+        display: inline;
     }
 
-
-
+ 
 }
+

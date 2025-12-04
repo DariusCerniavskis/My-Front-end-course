@@ -1,0 +1,121 @@
+/* my variables */
+:root {
+    --bgr-color1: rgb(255, 232, 186); /* top and bottom brg */
+    --bgr-color2: rgb(230, 216, 249); /* middle (shop) brg */
+    --main-color: black;
+    --main-spacing: 1rem;
+
+    --min-pg-width: 350px;
+    --max-pg-width: 1600px;
+    --min-pg-height: 500px;
+}
+
+/* h base font */
+h1 h2 h3 h4 h5 h6 {
+    all: unset;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h4 {
+    font-size: 1.4rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+/* restart margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: var(--min-pg-width);
+}
+
+.main-wrapper {
+    min-height: var(--min-pg-height);
+}
+
+.section-wrapper1 {
+    height: 80vh;
+
+    padding-top: var(--main-spacing);
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    background-color: var(--bgr-color1);
+}
+
+/* Header navigation block ---------------------------------------------------*/
+.header-wrapper {
+    height: 60px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    border-bottom: 1px solid var(--main-color);
+
+    background-color: aqua;
+}
+
+/* left  side ------------------------------ */
+.left-side-wrapper {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.burger-btn {
+    width: 5rem;
+}
+
+.burger-btn img {
+    width: 3rem;
+}
+
+/* middle ---------------------------------- */
+.middle-wrapper ul {
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    list-style: none;
+}
+
+.middle-wrapper ul li a {
+    text-decoration: none;
+
+    color: var(--main-color);
+    font-size: 1.2rem;
+}
+
+/* rigt side --------------------------------- */
+.rigt-side-wrapper {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.eshop-troley {
+    all: unset;
+    height: 1.7rem;
+    width: 1.7rem;
+}
+/*  END of header navigatio block  ------------------------------------------ */
+
+/* Introduction------------------------------------------------------------- */
+
+.artice h1 {
+    text-align: center;
+    padding-top: 3rem;
+}

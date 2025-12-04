@@ -1,0 +1,20 @@
+/* Initially hide the content */
+.hover-content {
+    display: none;
+    padding: 10px;
+    background-color: lightyellow;
+    border: 1px solid #ccc;
+}
+
+/* When the user hovers over '.hover-target', find the adjacent sibling with 
+   the class '.hover-content' and display it. */
+.hover-target:hover + .hover-content {
+    display: block;
+}
+
+/* Optional: Add basic styling to the target element */
+.hover-target {
+    padding: 10px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
