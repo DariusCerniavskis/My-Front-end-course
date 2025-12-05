@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Science Gothic Variable";
+    src: url("./fonts/Science_Gothic/ScienceGothic-VariableFont_CTRS,slnt,wdth,wght.ttf");
+}
+
+body {
+    margin: 0;
+
+    font-family: "Science Gothic Variable";
+    font-weight: 700;
+    font-style: normal;
+}
+
+header {
+    height: 100px;
+    background-color: khaki;
+}
+
+main {
+    height: 500px;
+    background-color: burlywood;
+    font-size: 0;
+}
+
+footer {
+    height: 100px;
+    background-color: rgb(91, 84, 74);
+}
+
+.left-side-section {
+    width: 30%;
+    background-color: blue;
+    height: 100%;
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.right-side-section {
+    background-color: green;
+    height: 100%;
+    width: 70%;
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.center {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: auto;
+}
